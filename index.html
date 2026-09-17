@@ -80,6 +80,7 @@ body{
   padding:0 18px 0 23px;
   font-weight:700;
   font-size:16px;
+  overflow:hidden;
 }
 
 .status-right{
@@ -90,8 +91,8 @@ body{
 
 .status-icons{
   display:block;
-  width:119px;
-  height:auto;
+  height:21px;
+  width:auto;
   object-fit:contain;
   image-rendering:auto;
 }
@@ -711,13 +712,8 @@ body.ios-standalone .contact-sheet{
   <header class="header">
     <div class="statusbar">
       <div id="statusTime">18:46</div>
-
       <div class="status-right">
-        <img class="status-icons" src="./status-icons.png" alt="network and battery status" />
-      </div>
-    </div>
-          <div style="font-size:12px">71</div>
-        </div>
+        <img class="status-icons" src="./status-icons.png?v=4" alt="network and battery status" />
       </div>
     </div>
 

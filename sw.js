@@ -1,4 +1,4 @@
-const CACHE = "messages-demo-v2";
+const CACHE = "messages-demo-v4";
 const ASSETS = [
   "./",
   "./index.html",
